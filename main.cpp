@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
         &newAuthorizeUser;
     FunctionMap[std::make_pair("Api/Artist/", "POST")] =
         &newDeleteUser;
-    FunctionMap[std::make_pair("Api/Artist/Releases", "POST")] =
+    FunctionMap[std::make_pair("Api/Artist/Releases/", "POST")] =
         &newPendingRequest;
 
 
